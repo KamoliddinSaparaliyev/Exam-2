@@ -64,7 +64,9 @@
 @media only screen and (max-width: 978px) {
   .about__section {
     .about__box {
+      width: 100%;
       gap: 20px;
+      align-items: start;
     }
     text-align: center;
     padding-top: 0;

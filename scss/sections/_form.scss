@@ -80,9 +80,20 @@
       text-align: center;
       width: 70%;
     }
+
     .form__wrap--title {
       font-size: 48px;
       line-height: 56px;
+    }
+  }
+}
+@media only screen and (max-width: 462px) {
+  .form__section {
+    .form__list {
+      padding-right: 5px;
+    }
+    .form__box {
+      width: 100%;
     }
   }
 }

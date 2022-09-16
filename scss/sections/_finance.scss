@@ -28,8 +28,8 @@
     color: #6c8294;
   }
 }
-@media only screen and (max-width:1075px) {
-  .finance__section{
+@media only screen and (max-width: 1075px) {
+  .finance__section {
     margin-top: 100px;
     gap: 10px;
   }
@@ -37,15 +37,17 @@
     width: 88px;
     height: auto;
   }
-  
 }
-@media only screen and (max-width:690px) {
-  .finance__section{
+@media only screen and (max-width: 690px) {
+  .finance__section {
     flex-direction: column;
-    gap: 48px;
-    .finance__card{
-      max-width: 70% !important;
+    gap: 40px;
+    .card__pic {
+      width: 106px;
+      height: auto;
+    }
+    .finance__card {
+      max-width: 80% !important;
     }
   }
-  
 }
