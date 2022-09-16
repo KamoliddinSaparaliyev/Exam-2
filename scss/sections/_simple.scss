@@ -1,0 +1,55 @@
+.simple__section {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .simple__box {
+    max-width: 445px;
+  }
+  .simple__box--title {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #36536b;
+  }
+  .simple__box--subtitle {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6c8294;
+  }
+  .simple__wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .simple__pic {
+    border-radius: 38px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .simple__section {
+    margin-top: 100px;
+    flex-direction: column-reverse;
+    .simple__box {
+      text-align: center;
+      width: 80%;
+    }
+    .simple__wrap {
+      gap: 25.5px;
+    }
+    .simple__pic{
+      width: 159px;
+      height: auto;
+      border-radius: 20px;
+    }
+    .simple__box--title {
+      font-size: 48px;
+      line-height: 56px;
+    }
+  }
+}

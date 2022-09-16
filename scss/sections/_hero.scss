@@ -1,0 +1,126 @@
+.hero__section {
+  width: 90%;
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .hero__box {
+    width: 65%;
+  }
+  .hero__box--title {
+    width: 546px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #36536b;
+  }
+  .hero__img {
+    border-radius: 39px;
+  }
+  .hero__box--email {
+    width: 272px;
+    padding: 14px 0 14px 27px;
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    font-family: "Public Sans";
+    outline: none;
+    border: none;
+  }
+  .hero__btn {
+    margin-left: -38px;
+    padding: 16px 24.5px 14px 26.5px;
+    background: #ba4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+  .hero__btn:hover {
+    border: 1px solid #da6d97;
+    background-color: #fff;
+    transition: 0.3s;
+    color: #da6d97;
+  }
+  .hero__btn:active {
+    color: #fbfcfe;
+    background: #da6d97;
+  }
+  .hero__subtitle {
+    margin-left: 20px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6c8294;
+    span {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      text-decoration-line: underline;
+      color: #6c8294;
+    }
+  }
+}
+@media only screen and (max-width: 988px) {
+  .hero__section {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 846px) {
+  .hero__section {
+    flex-direction: column-reverse;
+    text-align: center;
+    .hero__img {
+      width: 159px;
+      height: auto;
+      border-radius: 20px;
+    }
+    .hero__box {
+      width: 100%;
+    }
+    .hero__box--title {
+      max-width: 540px;
+      font-size: 48px;
+      line-height: 56px;
+      margin: 47px auto 23px;
+    }
+  }
+}
+@media only screen and (max-width: 578px) {
+  .hero__section {
+    .hero__form {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+    .hero__btn {
+      width: 90%;
+      margin-left: 0;
+      padding: 16px 46px 14px 50px;
+    }
+    .hero__box--email {
+      width: 85% !important;
+    }
+    .hero__box--title {
+      width: 100% !important;
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+}
